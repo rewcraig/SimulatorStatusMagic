@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		10B9FF57212C542D0014CD35 /* SimulatorStatusMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B9FF56212C542D0014CD35 /* SimulatorStatusMagicUITests.swift */; };
 		110F24E719E4610E00012FD7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 110F24E519E4610E00012FD7 /* Localizable.strings */; };
 		3D3ED70720C7CAD0006BBCC8 /* SDStatusBarOverriderPost12_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED70520C7CAD0006BBCC8 /* SDStatusBarOverriderPost12_0.m */; };
 		3D3ED70820C7CAD0006BBCC8 /* SDStatusBarOverriderPost12_0.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3ED70520C7CAD0006BBCC8 /* SDStatusBarOverriderPost12_0.m */; };
@@ -57,6 +58,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		10B9FF59212C542E0014CD35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5516356019E3FF3D001F636D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5516356719E3FF3D001F636D;
+			remoteInfo = SimulatorStatusMagic;
+		};
 		72ECF7591BAAC4A20071D401 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5516356019E3FF3D001F636D /* Project object */;
@@ -81,6 +89,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		10B9FF54212C542D0014CD35 /* SimulatorStatusMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimulatorStatusMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B9FF56212C542D0014CD35 /* SimulatorStatusMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorStatusMagicUITests.swift; sourceTree = "<group>"; };
+		10B9FF58212C542E0014CD35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110F24E319E45FFE00012FD7 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		110F24E619E4610E00012FD7 /* de */ = {isa = PBXFileReference; fileEncoding = 2483028224; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		3D3ED70420C7CAD0006BBCC8 /* SDStatusBarOverriderPost12_0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDStatusBarOverriderPost12_0.h; sourceTree = "<group>"; };
@@ -118,6 +129,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		10B9FF51212C542D0014CD35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5516356519E3FF3D001F636D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,12 +153,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B9FF55212C542D0014CD35 /* SimulatorStatusMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10B9FF56212C542D0014CD35 /* SimulatorStatusMagicUITests.swift */,
+				10B9FF58212C542E0014CD35 /* Info.plist */,
+			);
+			path = SimulatorStatusMagicUITests;
+			sourceTree = "<group>";
+		};
 		5516355F19E3FF3D001F636D = {
 			isa = PBXGroup;
 			children = (
 				5516356A19E3FF3D001F636D /* SimulatorStatusMagic */,
 				DDACF30819E83F06004FCB30 /* SDStatusBarManager */,
 				72ECF7261BAAC33A0071D401 /* SimulatorStatusMagiciOS */,
+				10B9FF55212C542D0014CD35 /* SimulatorStatusMagicUITests */,
 				5516356919E3FF3D001F636D /* Products */,
 			);
 			indentWidth = 2;
@@ -153,6 +181,7 @@
 			children = (
 				5516356819E3FF3D001F636D /* SimulatorStatusMagic.app */,
 				72ECF7251BAAC33A0071D401 /* SimulatorStatusMagiciOS.framework */,
+				10B9FF54212C542D0014CD35 /* SimulatorStatusMagicUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,6 +281,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		10B9FF53212C542D0014CD35 /* SimulatorStatusMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B9FF5D212C542E0014CD35 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagicUITests" */;
+			buildPhases = (
+				10B9FF50212C542D0014CD35 /* Sources */,
+				10B9FF51212C542D0014CD35 /* Frameworks */,
+				10B9FF52212C542D0014CD35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B9FF5A212C542E0014CD35 /* PBXTargetDependency */,
+			);
+			name = SimulatorStatusMagicUITests;
+			productName = SimulatorStatusMagicUITests;
+			productReference = 10B9FF54212C542D0014CD35 /* SimulatorStatusMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5516356719E3FF3D001F636D /* SimulatorStatusMagic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5516358B19E3FF3D001F636D /* Build configuration list for PBXNativeTarget "SimulatorStatusMagic" */;
@@ -294,9 +341,15 @@
 		5516356019E3FF3D001F636D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Shiny Development";
 				TargetAttributes = {
+					10B9FF53212C542D0014CD35 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5516356719E3FF3D001F636D;
+					};
 					5516356719E3FF3D001F636D = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
@@ -325,11 +378,19 @@
 				5516356719E3FF3D001F636D /* SimulatorStatusMagic */,
 				72ECF7241BAAC33A0071D401 /* SimulatorStatusMagiciOS */,
 				72ECF7551BAAC49C0071D401 /* SimulatorStatusMagicUniversalFramework */,
+				10B9FF53212C542D0014CD35 /* SimulatorStatusMagicUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		10B9FF52212C542D0014CD35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5516356619E3FF3D001F636D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -367,6 +428,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		10B9FF50212C542D0014CD35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B9FF57212C542D0014CD35 /* SimulatorStatusMagicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5516356419E3FF3D001F636D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,6 +474,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		10B9FF5A212C542E0014CD35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5516356719E3FF3D001F636D /* SimulatorStatusMagic */;
+			targetProxy = 10B9FF59212C542E0014CD35 /* PBXContainerItemProxy */;
+		};
 		72ECF75A1BAAC4A20071D401 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 72ECF7241BAAC33A0071D401 /* SimulatorStatusMagiciOS */;
@@ -433,6 +507,58 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		10B9FF5B212C542E0014CD35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SimulatorStatusMagicUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstateWebmasters.SimulatorStatusMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimulatorStatusMagic;
+			};
+			name = Debug;
+		};
+		10B9FF5C212C542E0014CD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = SimulatorStatusMagicUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RealEstateWebmasters.SimulatorStatusMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimulatorStatusMagic;
+			};
+			name = Release;
+		};
 		5516358919E3FF3D001F636D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -624,6 +750,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10B9FF5D212C542E0014CD35 /* Build configuration list for PBXNativeTarget "SimulatorStatusMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B9FF5B212C542E0014CD35 /* Debug */,
+				10B9FF5C212C542E0014CD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5516356319E3FF3D001F636D /* Build configuration list for PBXProject "SimulatorStatusMagic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
